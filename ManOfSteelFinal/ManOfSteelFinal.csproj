@@ -62,6 +62,26 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\constants.js.map" />
     <Content Include="Scripts\game.js.map" />
+    <Content Include="Scripts\objects\buildings1.js.map" />
+    <Content Include="Scripts\objects\buildings2.js.map" />
+    <Content Include="Scripts\objects\buildings3.js.map" />
+    <Content Include="Scripts\objects\button.js.map" />
+    <Content Include="Scripts\objects\cloud.js.map" />
+    <Content Include="Scripts\objects\cloud1.js.map" />
+    <Content Include="Scripts\objects\cloud2.js.map" />
+    <Content Include="Scripts\objects\cloud3.js.map" />
+    <Content Include="Scripts\objects\cloud4.js.map" />
+    <Content Include="Scripts\objects\gameobject.js.map" />
+    <Content Include="Scripts\objects\kryptonite.js.map" />
+    <Content Include="Scripts\objects\label.js.map" />
+    <Content Include="Scripts\objects\ocean.js.map" />
+    <Content Include="Scripts\objects\points.js.map" />
+    <Content Include="Scripts\objects\scoreboard.js.map" />
+    <Content Include="Scripts\objects\sunmoon.js.map" />
+    <Content Include="Scripts\objects\superman.js.map" />
+    <Content Include="Scripts\states\gameover.js.map" />
+    <Content Include="Scripts\states\gameplay_level1.js.map" />
+    <Content Include="Scripts\states\menu_level1.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -97,18 +117,55 @@
     <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
     <Content Include="Scripts\lib\Stats.js" />
     <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
+    <Content Include="Scripts\objects\buildings1.js" />
+    <Content Include="Scripts\objects\buildings2.js" />
+    <Content Include="Scripts\objects\buildings3.js" />
+    <Content Include="Scripts\objects\button.js" />
+    <Content Include="Scripts\objects\cloud.js" />
+    <Content Include="Scripts\objects\cloud1.js" />
+    <Content Include="Scripts\objects\cloud2.js" />
+    <Content Include="Scripts\objects\cloud3.js" />
+    <Content Include="Scripts\objects\cloud4.js" />
+    <Content Include="Scripts\objects\gameobject.js" />
+    <Content Include="Scripts\objects\kryptonite.js" />
+    <Content Include="Scripts\objects\label.js" />
+    <Content Include="Scripts\objects\ocean.js" />
+    <Content Include="Scripts\objects\points.js" />
+    <Content Include="Scripts\objects\scoreboard.js" />
+    <Content Include="Scripts\objects\sunmoon.js" />
+    <Content Include="Scripts\objects\superman.js" />
+    <Content Include="Scripts\states\gameover.js" />
+    <Content Include="Scripts\states\gameplay_level1.js" />
+    <Content Include="Scripts\states\menu_level1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\objects\" />
-    <Folder Include="Scripts\states\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\constants.ts" />
     <TypeScriptCompile Include="Scripts\game.ts" />
+    <TypeScriptCompile Include="Scripts\objects\buildings1.ts" />
+    <TypeScriptCompile Include="Scripts\objects\buildings2.ts" />
+    <TypeScriptCompile Include="Scripts\objects\buildings3.ts" />
+    <TypeScriptCompile Include="Scripts\objects\button.ts" />
+    <TypeScriptCompile Include="Scripts\objects\cloud.ts" />
+    <TypeScriptCompile Include="Scripts\objects\cloud1.ts" />
+    <TypeScriptCompile Include="Scripts\objects\cloud2.ts" />
+    <TypeScriptCompile Include="Scripts\objects\cloud3.ts" />
+    <TypeScriptCompile Include="Scripts\objects\cloud4.ts" />
+    <TypeScriptCompile Include="Scripts\objects\gameobject.ts" />
+    <TypeScriptCompile Include="Scripts\objects\kryptonite.ts" />
+    <TypeScriptCompile Include="Scripts\objects\label.ts" />
+    <TypeScriptCompile Include="Scripts\objects\ocean.ts" />
+    <TypeScriptCompile Include="Scripts\objects\points.ts" />
+    <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
+    <TypeScriptCompile Include="Scripts\objects\sunmoon.ts" />
+    <TypeScriptCompile Include="Scripts\objects\superman.ts" />
+    <TypeScriptCompile Include="Scripts\states\gameover.ts" />
+    <TypeScriptCompile Include="Scripts\states\gameplay_level1.ts" />
+    <TypeScriptCompile Include="Scripts\states\menu_level1.ts" />
     <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
