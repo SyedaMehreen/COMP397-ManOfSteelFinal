@@ -85,6 +85,14 @@
     <Content Include="Scripts\objects\laser.js.map" />
     <Content Include="Scripts\states\gameplay_level2.js.map" />
     <Content Include="Scripts\states\menu_level2.js.map" />
+    <Content Include="Scripts\states\gameplay_level3.js.map" />
+    <Content Include="Scripts\states\menu_level3.js.map" />
+    <Content Include="Scripts\objects\person1.js.map" />
+    <Content Include="Scripts\objects\person2.js.map" />
+    <Content Include="Scripts\objects\person3.js.map" />
+    <Content Include="Scripts\objects\person4.js.map" />
+    <Content Include="Scripts\objects\person5.js.map" />
+    <Content Include="Scripts\objects\superman_hori.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -107,6 +115,11 @@
     <Content Include="assets\images\dat-to-night.png" />
     <Content Include="assets\images\kryptonite.png" />
     <Content Include="assets\images\laser.png" />
+    <Content Include="assets\images\people1.png" />
+    <Content Include="assets\images\people2.png" />
+    <Content Include="assets\images\people3.png" />
+    <Content Include="assets\images\people4.png" />
+    <Content Include="assets\images\people5.png" />
     <Content Include="assets\images\playagain.png" />
     <Content Include="assets\images\s-logo.png" />
     <Content Include="assets\images\start.png" />
@@ -135,15 +148,23 @@
     <Content Include="Scripts\objects\label.js" />
     <Content Include="Scripts\objects\laser.js" />
     <Content Include="Scripts\objects\ocean.js" />
+    <Content Include="Scripts\objects\person1.js" />
+    <Content Include="Scripts\objects\person2.js" />
+    <Content Include="Scripts\objects\person3.js" />
+    <Content Include="Scripts\objects\person4.js" />
+    <Content Include="Scripts\objects\person5.js" />
     <Content Include="Scripts\objects\points.js" />
     <Content Include="Scripts\objects\scoreboard.js" />
     <Content Include="Scripts\objects\sunmoon.js" />
     <Content Include="Scripts\objects\superman.js" />
+    <Content Include="Scripts\objects\superman_hori.js" />
     <Content Include="Scripts\states\gameover.js" />
     <Content Include="Scripts\states\gameplay_level1.js" />
     <Content Include="Scripts\states\gameplay_level2.js" />
+    <Content Include="Scripts\states\gameplay_level3.js" />
     <Content Include="Scripts\states\menu_level1.js" />
     <Content Include="Scripts\states\menu_level2.js" />
+    <Content Include="Scripts\states\menu_level3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -167,15 +188,23 @@
     <TypeScriptCompile Include="Scripts\objects\label.ts" />
     <TypeScriptCompile Include="Scripts\objects\laser.ts" />
     <TypeScriptCompile Include="Scripts\objects\ocean.ts" />
+    <TypeScriptCompile Include="Scripts\objects\person1.ts" />
+    <TypeScriptCompile Include="Scripts\objects\person2.ts" />
+    <TypeScriptCompile Include="Scripts\objects\person3.ts" />
+    <TypeScriptCompile Include="Scripts\objects\person4.ts" />
+    <TypeScriptCompile Include="Scripts\objects\person5.ts" />
     <TypeScriptCompile Include="Scripts\objects\points.ts" />
     <TypeScriptCompile Include="Scripts\objects\scoreboard.ts" />
     <TypeScriptCompile Include="Scripts\objects\sunmoon.ts" />
     <TypeScriptCompile Include="Scripts\objects\superman.ts" />
+    <TypeScriptCompile Include="Scripts\objects\superman_hori.ts" />
     <TypeScriptCompile Include="Scripts\states\gameover.ts" />
     <TypeScriptCompile Include="Scripts\states\gameplay_level1.ts" />
     <TypeScriptCompile Include="Scripts\states\gameplay_level2.ts" />
+    <TypeScriptCompile Include="Scripts\states\gameplay_level3.ts" />
     <TypeScriptCompile Include="Scripts\states\menu_level1.ts" />
     <TypeScriptCompile Include="Scripts\states\menu_level2.ts" />
+    <TypeScriptCompile Include="Scripts\states\menu_level3.ts" />
     <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
