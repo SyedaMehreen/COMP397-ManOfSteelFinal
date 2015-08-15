@@ -99,6 +99,7 @@
     <Content Include="Scripts\states\gameplay_level4.js.map" />
     <Content Include="Scripts\states\menu_level4.js.map" />
     <Content Include="Scripts\states\win.js.map" />
+    <Content Include="Documentation\External Game Document -Syeda Mehreen, Rukshar Patel.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
